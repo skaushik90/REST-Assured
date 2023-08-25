@@ -43,9 +43,7 @@ public class PutPatchDeleteExamples {
 	public void testDelete() {
 		
 //		JSONObject request = new JSONObject();
-//		request.put("name", "Kaushik");
-//		request.put("job", "Searching...");
-				
+//		request.put("name", "Kaushik");				
 		baseURI = "https://reqres.in";
 		
 		when().
