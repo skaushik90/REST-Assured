@@ -35,7 +35,6 @@ public class GetAndPostExamples {
 		given().header("Content-Type", "application/json").
 		body(request.toJSONString()).when().
 		post("/api/users").then().statusCode(201).log().all();
-//		baseURI = "https://reqres.in";.
 //		given().get("/api/users?page=2").then().statusCode(200).
 //		body("data[4].first_name", equalTo("George")).
 //		body("data.first_name", hasItems("George", "Rachel"));
